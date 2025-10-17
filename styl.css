@@ -1,0 +1,87 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 300px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    color: #007BFF;
+    padding: 0 10px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons styling */
+input[type="button"],
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Exit button different color */
+#exitLog,
+input[value="Exit"] {
+    background-color: #dc3545;
+}
+
+#exitLog:hover,
+input[value="Exit"]:hover {
+    background-color: #a71d2a;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Small spacing fix */
+br {
+    line-height: 1.5;
+}
