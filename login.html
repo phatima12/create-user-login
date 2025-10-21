@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <link rel="stylesheet" href="styl.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <form onsubmit="return false;">
+    <fieldset>
+      <legend>User Login</legend>
+
+      <label for="User">Username:</label><br>
+      <input type="text" id="User"><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password"><br><br>
+
+      <button type="button" onclick="loginCheck()">Login</button>
+      <input type="button" value="Exit" onclick="exitApp()">
+    </fieldset>
+  </form>
+</body>
+</html>

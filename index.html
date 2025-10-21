@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create User</title>
+  <link rel="stylesheet" href="styl.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <form id="createForm">
+    <fieldset>
+      <legend>Create User</legend>
+
+      Username: <input type="text" id="newUser"><br><br>
+      Password: <input type="password" id="newPass"><br><br>
+      Re-enter Password: <input type="password" id="rePass"><br><br>
+
+      <input type="button" value="Create" onclick="createUser()">
+      <input type="button" value="Clear" onclick="clearForm()">
+      <input type="button" value="Exit" onclick="window.close()">
+    </fieldset>
+  </form>
+</body>
+</html>
